@@ -1,4 +1,9 @@
 import React from "react"
+import PropTypes from 'prop-types'
+import {ThemeProvider, CssBaseline} from "@material-ui/core"
+import theme from "../src/theme"
+import "../global.css"
+import {withStyles} from "@material-ui/core"
 export default function MyApp(props) {
     const { Component, pageProps } = props;
   

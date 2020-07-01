@@ -1,0 +1,10 @@
+.pageHeaderStart{
+    margin: 100px 0 0 15%;
+}
+.start{
+    /* display: flex; */
+    /* width:100vw; */
+    height: 100vh;
+    padding-top: 10px;
+    /* background-color: tomato; */
+}
