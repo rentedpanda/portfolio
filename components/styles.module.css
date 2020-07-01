@@ -1,10 +1,25 @@
 .pageHeaderStart{
-    margin: 100px 0 0 15%;
+    margin: 15% 0 0 15%;
 }
 .start{
-    /* display: flex; */
-    /* width:100vw; */
+    position: relative;
     height: 100vh;
     padding-top: 10px;
-    /* background-color: tomato; */
+}
+.start::before{
+    content: "";
+    background-image: url('../public/bg3.jpg');
+     background-size: cover;
+     opacity: 0.6;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+}
+.work{
+    position: relative;
+    height: 100vh;
+    padding-top: 10px;
+    background: rgba(0, 0, 0, 0.7);
 }

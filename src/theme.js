@@ -30,13 +30,14 @@ const theme = createMuiTheme({
         },
         text:{
             primary:"#EDF5E1",
+            secondary:"#dcdde1"
         },
 
   },
   typography: {
     // Use the system font.
-    fontFamily:
-      'Roboto Condensed, Lato,Arial,sans-serif',
+    fontFamily:'Roboto Condensed, Lato,Arial,sans-serif',
+    letterSpacing:"3px"
   },
 });
 
