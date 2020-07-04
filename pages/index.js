@@ -7,6 +7,9 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Start from "../components/start"
 import Work from "../components/work"
 import About from '../components/about'
+import Contact from '../components/contact'
+
+
 const url = (name, wrap = false) => `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 export function Home(props) {
   let parallax = ""
@@ -29,9 +32,7 @@ export function Home(props) {
         <Start matches={matches} ipadMatch={matchesIpad} />
         <About matches={matches} ipadMatch={matchesIpad} ipad={Ipad}/>
         <Work matches={matches} ipadMatch={matchesIpad} ipad={Ipad}/>
-        <Container maxWidth="xl" style={{height:"100vh",backgroundColor:"rgba(0, 0, 0, 0.7)"}}>
-
-        </Container>
+        <Contact matches={matches} ipadMatch={matchesIpad} ipad={Ipad}/>
       </main>
 
       </div>
