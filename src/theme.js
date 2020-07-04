@@ -37,7 +37,8 @@ const theme = createMuiTheme({
   typography: {
     // Use the system font.
     fontFamily:'Roboto Condensed, Lato,Arial,sans-serif',
-    letterSpacing:"3px"
+    letterSpacing:"4px",
+    lineHeight:"1.6"
   },
 });
 
