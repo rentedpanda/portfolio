@@ -3,7 +3,7 @@
 }
 .start{
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 10px;
 }
 .start::before{
@@ -72,3 +72,24 @@
     color: rgba(255, 255, 255, 0.7);
     font-family: "Roboto Mono","Courier New","Courier","monospace" !important;
 }
+.links {
+    text-decoration: none !important;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7) !important;
+    }
+    .links::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+    }
+    .links:hover:after {
+    width: 85%;
+    background: #5CDB95;
+    }
+    .navLink{
+        text-decoration: none !important;
+        color: #ffffff !important;
+    }

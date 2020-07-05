@@ -5,7 +5,7 @@ import theme from "../src/theme"
 import Develop from "./dencrypyText"
 export default function start(props) {
     return (
-        <Container className={styles.start} maxWidth="xl">
+        <Container style={{height:"100vh"}} className={styles.start} maxWidth="xl">
               <div style={{marginTop:props.ipadMatch?"15%":props.matches?"40%":"35%",position:"relative",zIndex:"10"}} className={styles.pageHeaderStart}>
               <div>
                 <Typography style={{fontSize:18,fontWeight:"normal"}} color="secondary">{`Start />`}</Typography>
