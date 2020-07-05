@@ -47,7 +47,7 @@ export default function Card(prop) {
                                 <span style={{ fontSize: 22 }}>&#8220;</span> Review is an evaluation of a publication, service, or company such as a movie, video game, musical composition, book; a piece of hardware like a car, home appliance, or computer <span style={{ fontSize: 22 }}>&#8221;</span>
                             </Typography>
                             <Typography variant="h6" color="primary" style={{ textAlign: "end" }}>
-                                - Anuswant Pandey,Developer,CBNITS
+                                - Aditya Agarwal,DevOps Engineer
                             </Typography>
                         </div>
                     </div>
