@@ -52,7 +52,7 @@ export default function contact(props) {
                                 </Link>
                                     </Typography>
                                     <Typography className={classes.text}>
-                                        <Link className={styles.links} href="www.linkedin.com/in/rentedPanda">
+                                        <Link className={styles.links} href="https://www.linkedin.com/in/rentedpanda/">
                                             <LinkedInIcon className={classes.icon} /> linkedin.com/in/rentedPanda
                                 </Link>
                                     </Typography>
